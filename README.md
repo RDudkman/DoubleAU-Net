@@ -1,4 +1,9 @@
 # DoubleAU-Net
+Deep Learning Seminar Final Project
+DoubleAU-Net: Attention based DoubleU-Net for
+Medical Image Segmentation
+Tel Aviv University, School of Electrical Engineering, Deep Learning Seminar, 0510-7255, Spring 2022
+
 This file will give a short explanation about how to run our notebook – how to train from scratch, load a trained model, choose between different datasets, change hyperparameters and more.
 ## A.	Datasets paths:
 Data path – should be the folder name that contains the dataset in a .zip format.
