@@ -24,8 +24,8 @@ In case you want to use our interpolation technique you choose it in the config 
 
 config['first_time_data_arrangement'] = True
 
-	a.	Run section 1,2,3 to create ‘CVC’ split augmented data .zip file to your Google Drive.
-	b.	Run section 1,2,4 to create ‘bowl’ split augmented data .zip file to your Google Drive.
+	a. Run section 1,2,3 to create ‘CVC’ split augmented data .zip file to your Google Drive.
+	b. Run section 1,2,4 to create ‘bowl’ split augmented data .zip file to your Google Drive.
 2.	After creating new data, Restart run time, and use your new data as (E) Load data describes.
 
 ## E.	Load data (must):
