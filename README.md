@@ -7,25 +7,25 @@
 This file will give a short explanation about how to run our notebook – how to train from scratch, load a trained model, choose between different datasets, change hyperparameters and more.
 ## A.	Datasets paths:
 Data path – should be the folder name that contains the dataset in a .zip format.
-config['data_path'] = '/content/gdrive/MyDrive/Datasets/’
+	config['data_path'] = '/content/gdrive/MyDrive/Datasets/’
 
 ## B.	Choose datasets:
 In order to choose between the datasets you want to work with you should update in the config:
-#config['dataset'] = 'bowl'
-config['dataset']= 'CVC'
+	#config['dataset'] = 'bowl'
+	config['dataset']= 'CVC'
 1)	When working with ‘bowl’ dataset, the relevant code cells for (D) creating new data or (E) Load data are 1,2,4.
 2)	When working with ‘CVC’ dataset, the relevant code cells for (D) creating new data or (E) Load data are 1,2,3.
 ## C.	Interpolation:
 In case you want to use our interpolation technique you choose it in the config code:
-config ['use_interpolation'] = True
+	config ['use_interpolation'] = True
 
 ## D.	Creating new data (optional):
 1.	If you want to use the original data and create your own split augmented data you should update in the config code this line as True:
 
-config['first_time_data_arrangement'] = True
+	config['first_time_data_arrangement'] = True
 
-	a.	Run section 1,2,3 to create ‘CVC’ split augmented data .zip file to your Google Drive.
-	b.	Run section 1,2,4 to create ‘bowl’ split augmented data .zip file to your Google Drive.
+a.	Run section 1,2,3 to create ‘CVC’ split augmented data .zip file to your Google Drive.
+b.	Run section 1,2,4 to create ‘bowl’ split augmented data .zip file to your Google Drive.
 2.	After creating new data, Restart run time, and use your new data as (E) Load data describes.
 
 ## E.	Load data (must):
