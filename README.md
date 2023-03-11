@@ -3,11 +3,7 @@ This file will give a short explanation about how to run our notebook – how to
 ## A.	Datasets paths:
 Data path – should be the folder name that contains the dataset in a .zip format.
 config['data_path'] = '/content/gdrive/MyDrive/Datasets/’
-We uploaded to our shared drive both datasets:
-1)	In: Datasets/original/ – both of the original datasets.
-2)	In: Datasets/splitted augmented data/ – our data after doing augmentation and splitting it into train ,validation and test sets (80%/10%/10%). 
 
-We recommend using the augmented data to save time.
 ## B.	Choose datasets:
 In order to choose between the datasets you want to work with you should update in the config:
 #config['dataset'] = 'bowl'
@@ -50,10 +46,6 @@ This is where we save the model, metrics and more.
 2)	Run code cells 5.
 3)	Change in code cell 8 folder_in_output to the wanted folder in output path to load from
 4)	Run code cells 8,9,10. 
-5)	You can choose between your trained model, or use our saved models which are the best we achieved.
-Our models can be found in:
-Best results/bowl/
-Best results/CVC/
 
 		
 NOTE: The model’s name in our code is called DoubleUNet because we first implemented the DoubleUNet and on top of the base notebook we added our changes. We didn’t change the variable’s name when we implemented our DoubleAU-Net. To be clear, the model in the notebook is our DoubleAU-Net.
